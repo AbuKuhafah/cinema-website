@@ -1,0 +1,24 @@
+.mainView {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.movie-card {
+    max-width: 345px;
+    min-width: 340px;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.reviews-section {
+    max-width: 345px;
+}
+
+.session-container {
+    display: flex;
+    align-items: center;
+}

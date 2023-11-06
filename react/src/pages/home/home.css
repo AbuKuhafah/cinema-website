@@ -1,0 +1,53 @@
+/* Styles for the main container */
+.container-fluid.main {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the main title */
+.main-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles for the movie list row */
+.movie-list-row {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* Styles for individual movie cards */
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.movie-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.movie-rating {
+    color: #f39c12;
+}
+
+.movie-session {
+    font-size: 14px;
+    color: #888;
+}
+
+.movie-description {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+}

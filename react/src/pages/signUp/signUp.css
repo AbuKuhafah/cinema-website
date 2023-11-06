@@ -1,0 +1,55 @@
+.mainHeight {
+  height: 80vh;
+}
+
+/* Styling for the form container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+    
+/* Styling for form groups */
+.form-group {
+  margin-bottom: 15px;
+  }
+    
+/* Styling for labels */
+.control-label {
+  font-size: 16px;
+  font-weight: bold;
+  }
+    
+/* Styling for input fields */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+    
+/* Styling for password input */
+[type="password"] {
+  margin-top: 5px;
+}
+
+/* Styling for submit button */
+.btn-primary {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling for error message */
+.text-danger {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+}

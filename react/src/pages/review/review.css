@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+textarea {
+    resize: none;
+}
+
+.rating {
+    width: 208px;
+    height: 40px;
+    margin: 0 auto;
+    /* padding: 40px 50px; */
+    /* border: 1px solid #ccc; */
+    /* background: #31a3e6; */
+}
+
+.frm {
+    /* width: 400px; */
+    /* display       : grid; */
+    /* place-content : center; */
+    /* align-items: center; */
+    /* top       : 50%; */
+    /* position  : absolute; */
+    /* background-color: rgba(190, 10, 10, 0.034); */
+}
+
+#button1 {
+    float: right;
+}
+
+#button2 {
+    /* padd */
+}
+
+#container {
+    padding-left: 280px;
+    display: inline-block;
+}
+
+.rating label {
+    float: right;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.rating label:not(:first-of-type) {
+    padding-right: 2px;
+}
+
+.rating label:before {
+    content: "\2605";
+    font-size: 42px;
+    color: #ffffff;
+    line-height: 1;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating input:checked~label:before,
+.rating:not(:checked)>label:hover:before,
+.rating:not(:checked)>label:hover~label:before {
+    color: #f9df4a;
+}
