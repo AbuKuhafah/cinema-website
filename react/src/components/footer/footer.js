@@ -31,7 +31,7 @@ function Footer() {
   // Render the Footer component
   return (
     <div className={`footer ${isVisible ? "visible" : ""}`}>
-      <h2>Full Stack Development Assignment 2</h2>
+      <h2>Loop Cinemas</h2>
     </div>
   );
 }
